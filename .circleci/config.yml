@@ -8,5 +8,4 @@ workflows:
   ci:
     jobs:
       - plugin-ci/lint
-      - plugin-ci/test
       - plugin-ci/build

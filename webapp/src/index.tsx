@@ -31,9 +31,7 @@ function getPostDraft(postID: string): object {
         db.transaction(mmKVStorageName).
             objectStore(mmKVStorageName).
             get(`reduxPersist:storage:comment_draft_${postID}`).
-            onsuccess = (event) => {
-            event.target.result ? resolve(JSON.parse(event.target.result)) : resolve(null);
-        };
+            onsuccess = (event) => (event.target.result ? resolve(JSON.parse(event.target.result)) : resolve(null));
     });
 }
 
