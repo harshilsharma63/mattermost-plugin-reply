@@ -1,11 +1,11 @@
 {
     "id": "com.harshilsharma63.quote-reply",
     "name": "Quoted Replies",
-    "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
-    "homepage_url": "https://github.com/mattermost/mattermost-plugin-starter-template",
-    "support_url": "https://github.com/mattermost/mattermost-plugin-starter-template/issues",
-    "release_notes_url": "https://github.com/mattermost/mattermost-plugin-starter-template/releases/tag/v0.1.0",
-    "icon_path": "assets/starter-template-icon.svg",
+    "description": "Directly create reply quoting a message.",
+    "homepage_url": "https://github.com/harshilsharma63/mattermost-plugin-reply",
+    "support_url": "https://github.com/harshilsharma63/mattermost-plugin-reply/issues",
+    "release_notes_url": "https://github.com/harshilsharma63/mattermost-plugin-reply/releases/latest",
+    "icon_path": "assets/logo.png",
     "version": "0.1.0",
     "min_server_version": "5.12.0",
     "webapp": {
